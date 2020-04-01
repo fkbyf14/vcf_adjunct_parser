@@ -1,0 +1,16 @@
+# config file for automatic testing at travis-ci.org
+language: python
+
+python:
+    - "3.6.9"
+
+install:
+    # install test dependencies and package
+    - pip3 install pytest
+    - pip3 install .
+
+script:
+    - py.test
+
+notifications:
+    email: no
