@@ -27,7 +27,7 @@ After get the file vcf_adjunct_parser/usages/test_task.py:
 ```
 - output: distribution of lengths of intervals between heterozygotes in dictionary: {distance: number of neighbouring heterozygotes}, matplotlib drawing;
 for perform task target output: array H - histogram of lengths distribution is necessary to uncomment code block
-after such comm (# for perform task target output: array H - histogram of lengths distribution)
+after such the comm (# for perform task target output: array H - histogram of lengths distribution)
 
 ```
 >python3 test_task.py --file test_vcf.vcf --individual father
